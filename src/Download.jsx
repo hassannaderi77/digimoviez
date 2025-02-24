@@ -1,5 +1,6 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
-
+import { FaDownload } from "react-icons/fa";
+import Card from "react-bootstrap/Card";
 import styles from "./Download.module.css";
 
 function Download() {
@@ -40,8 +41,28 @@ function Download() {
               <span style={{ color: "#FFA310" }}>Download Link</span>
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <Accordion className="mt-5">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    <span>
+                      <FaDownload /> Persian subtitled version
+                    </span>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <h5 style={{ color: "#FFA310" }}>
+                      2160p 4K 10bit BluRay x265 SoftSub
+                    </h5>
+                  </Accordion.Body>
+                  <Accordion.Body>
+                    <h5 style={{ color: "#FFA310" }}>
+                      1080p Full HD BluRay SoftSub
+                    </h5>
+                  </Accordion.Body>
+                  <Accordion.Body>
+                    <h5 style={{ color: "#FFA310" }}>720p BluRay HardSub</h5>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -51,8 +72,63 @@ function Download() {
               <span style={{ color: "#FFA310" }}>Actors</span>
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <Row>
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767d6b61bws07psa4667122"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm7678hyi1buf07psbzbs2a4h"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767if591bzp07pssh92jjkw"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767k4tv1bst07podk4nzefo"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Row>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -62,8 +138,63 @@ function Download() {
               <span style={{ color: "#FFA310" }}>Related Movies</span>
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <Row>
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767d6b61bws07psa4667122"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm7678hyi1buf07psbzbs2a4h"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767if591bzp07pssh92jjkw"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767k4tv1bst07podk4nzefo"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Row>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -73,8 +204,63 @@ function Download() {
               <span style={{ color: "#FFA310" }}>Related List</span>
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <Row>
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767d6b61bws07psa4667122"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm7678hyi1buf07psbzbs2a4h"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767if591bzp07pssh92jjkw"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
+                <Card className="gy-3" style={{ width: "18rem" }}>
+                  <Card.Img
+                    variant="top"
+                    src="https://ap-south-1.graphassets.com/cm75ggfoi07az07pg8qmc9l1i/cm767k4tv1bst07podk4nzefo"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Row>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -89,8 +275,10 @@ function Download() {
                   <Row>
                     <Col className="col-lg-10">
                       <div className={styles.detail}>
-                        <h5 style={{ color: "#FFA310", marginRight: "20px" }}>{people.name}</h5>
-                        <p style={{marginRight: "20px"}}>{people.text}</p>
+                        <h5 style={{ color: "#FFA310", marginRight: "20px" }}>
+                          {people.name}
+                        </h5>
+                        <p style={{ marginRight: "20px" }}>{people.text}</p>
                       </div>
                     </Col>
                   </Row>
